@@ -7,7 +7,8 @@ The project is based on standard project generated automatically by Android Stud
 Then AppDynamics `adeum` Gradle plugin was applied to it:
  1. Root `build.gradle` - classpath with version `20.12.1` added
  2. `app/build.gradle` - `adeum` plugin applied and configured
- 3. `TestApp` - Android Application class with enabling AppDynamics instrumentation
+ 3. `gradle.properties` - setup in same way as we have in our project
+ 4. `TestApp` - Android Application class with enabling AppDynamics instrumentation
 
  # Setup
  Just add license configuration and AppDynamics app key to `app/build.gradle` to make the project
