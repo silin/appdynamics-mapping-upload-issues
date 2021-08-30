@@ -13,3 +13,5 @@ Some problems were found with the configuration of task ':app:appDynamicsProcess
 
 It is likely caused that AGP have some new API for handling mapping files which is not expected by AppD plugin.
 So AppDynamics plugin becomes blocker for Android projects who want to use latest Android developer tooling
+
+The issue has been reported to AppDynamics: [Issue on AppD issue tracker](https://community.appdynamics.com/t5/End-User-Monitoring-EUM/Android-AppDynamics-plugin-21-6-0-latest-at-the-moment-does-not/m-p/45184#M1470)
