@@ -39,3 +39,6 @@ FAILURE: Build failed with an exception.
 * What went wrong:
   A problem occurred configuring project ':app'.
 > Can not use getCredentials() method when not using PasswordCredentials; please use getCredentials(Class)
+
+## Steps to reproduce
+Just uncomment Maven repository setup in root `build.gradle`

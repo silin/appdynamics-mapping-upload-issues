@@ -4,6 +4,19 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+
+        // TODO Uncomment below code to make AppD Plugin failing
+//        maven {
+//            url "https://gitlab.com/api/v4/projects/123/packages/maven"
+//            name "GitLab"
+//            credentials(HttpHeaderCredentials) {
+//                name = 'Private-Token'
+//                value = 'GITLAB_PRIVATE_TOKEN'
+//            }
+//            authentication {
+//                header(HttpHeaderAuthentication)
+//            }
+//        }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:8.1.1"
