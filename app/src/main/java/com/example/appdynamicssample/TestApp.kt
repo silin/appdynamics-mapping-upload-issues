@@ -7,7 +7,7 @@ class TestApp: Application() {
 
     override fun onCreate() {
         super.onCreate()
-        Instrumentation.start(BuildConfig.APPDYNAMICS_APP_KEY, this)
+        Instrumentation.start("APPDYNAMICS_APP_KEY", this)
     }
 
 }
